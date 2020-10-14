@@ -4,7 +4,7 @@ import jwt from "jsonwebtoken";
 export const siteKey = "6LcL8tQZAAAAAM-qfi2CSVmZz5ZRbOSMTqsCB8R-";
 
 export const api = axios.create({
-  baseURL: "http://localhost:3030",
+  baseURL: process.env.REACT_APP_PROD_API || "http://localhost:3030",
 });
 
 export const getUsers = async () => {
