@@ -1,0 +1,45 @@
+{
+  "name": "central",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "add": "^2.0.6",
+    "axios": "^0.20.0",
+    "cra-template": "1.0.3",
+    "dotenv": "^8.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "react": "^16.13.1",
+    "react-alert": "^7.0.2",
+    "react-alert-template-basic": "^1.0.0",
+    "react-dom": "^16.13.1",
+    "react-icons": "^3.11.0",
+    "react-recaptcha-hook": "^1.1.1",
+    "react-recaptcha-v3": "^2.0.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.3",
+    "remove": "^0.1.5",
+    "styled-components": "^5.2.0",
+    "yarn": "^1.22.10"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

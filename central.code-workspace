@@ -1,0 +1,14 @@
+{
+  "folders": [
+    {
+      "path": "."
+    },
+    {
+      "path": "..\\central-backend"
+    },
+    {
+      "path": "..\\..\\..\\..\\xampp\\htdocs\\central-api"
+    }
+  ],
+  "settings": {}
+}
